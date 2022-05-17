@@ -1,0 +1,50 @@
+import React, { useEffect } from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
+import { importAll } from '../../utilities/functions'
+import GalleryLayout from '../Gallery/GalleryLayout'
+const Gallery = () => {
+    const colNumbers = [5, 4, 3, 3, 5, 4, 5, 4, 3, 3, 5, 4, 5, 4, 3, 3, 5, 4]
+    useEffect(() => {
+        var lazyImages = [].slice.call(document.querySelectorAll(".lazy-loaded-image"));
+
+        let lazyImageObserver = new IntersectionObserver(function (entries, observer, id) {
+            console.log(id)
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    let lazyImage = entry.target;
+                    lazyImage.src = Object.entries(importAll(require.context('../../Assets/gallery_images', false, /\.(png|jpe?g|svg)$/)))[id][1];
+                    lazyImage.classList.remove("lazy");
+                    lazyImageObserver.unobserve(lazyImage);
+                }
+            });
+        });
+        lazyImages.forEach(function (lazyImage, id) {
+            lazyImageObserver.observe(lazyImage, '', id)
+        });
+    }, [])
+    return (
+        <div className='gallery'>
+            <Col lg="6" className='m-auto text-center home-section2 py-5 mb-3 col-lg-6'>
+                <h1 className='text-center AdventuresToGetYouInspired'>
+                    The <i> Gallery</i>
+                </h1>
+            </Col>
+            <Container fluid className='p-0'>
+                <Row>
+                    {
+                        React.Children.toArray(
+                            Object.entries(importAll(require.context('../../Assets/gallery_images', false, /\.(png|jpe?g|svg)$/))).map((data, id) => {
+
+                                return (
+                                    <GalleryLayout GalleryImg={data[1]} colNumber={colNumbers[id]} />
+                                )
+                            })
+                        )
+                    }
+                </Row>
+            </Container>
+        </div>
+    )
+}
+
+export default Gallery

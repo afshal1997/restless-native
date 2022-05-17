@@ -1,0 +1,642 @@
+.mainSection {
+    background: #000;
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+video.video01 {
+    opacity: 0.9;
+    object-fit: fill;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mainBannerHeading {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 90%;
+    right: 0;
+    left: 0;
+}
+
+.mainBannerHeading h2 {
+    font-size: 13.33333vw;
+    font-weight: 500;
+    line-height: 0.99em;
+    letter-spacing: -0.04em;
+    line-height: 0.85em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.mainBannerHeading h5 {
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 0.99em;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+.BtnLink {
+    font-size: 1.53333vw;
+    font-weight: 400;
+    line-height: 0.99em;
+    letter-spacing: -0.04em;
+}
+
+.home-section2 {
+    font-size: 4rem;
+}
+
+.AdventuresToGetYouInspired {
+    font-size: 6.66667vw;
+    font-weight: 500;
+    line-height: 0.99em;
+    letter-spacing: -0.04em;
+    color: #000;
+}
+
+.Img3 iframe {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    display: block;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.Img4 iframe {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.Img1 iframe {
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+    display: block;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.Img2 iframe {
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+    display: block;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.NowItYourTurnMainHeading h2 {
+    font-size: 6.66667rem;
+    font-weight: 500;
+    line-height: 0.99em;
+    letter-spacing: -0.04em;
+}
+
+.NowItYourTurn {
+    background: #ededed;
+    padding: 50px 30px;
+}
+
+.scrollVertically {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    margin-top: 70px;
+}
+
+.scrollVertically a {
+    position: relative;
+    min-height: 30rem;
+    min-width: 30rem;
+    transition: 1s;
+    margin: 0 10px;
+    bottom: 10px;
+}
+
+.scrollVertically img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.scrollVertically h3 {
+    color: #fff;
+    font-size: 2.33333rem;
+    font-weight: 500;
+    line-height: 0.99em;
+    letter-spacing: -0.04em;
+    text-align: left;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+
+.scrollVertically p {
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: 1.06667rem;
+    font-weight: 500;
+    line-height: 0.99em;
+    letter-spacing: -0.04em;
+    width: 85%;
+}
+
+.scrollVertically a:nth-child(even) {
+    min-height: 26rem;
+    max-height: 26rem;
+    bottom: -54px;
+}
+
+button.bookNow {
+    position: absolute;
+    left: 30px;
+    top: 150px;
+    border: none;
+    background: #0a6ece;
+    color: #fff;
+    padding: 5px 15px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.scrollVertically a:hover img {
+    transform: scale(1.02);
+    transition: 1s;
+}
+
+
+/* .images-in-section4 img {
+  height: 100%;
+  min-height: 500px;
+  object-fit: cover;
+  transition: 1s;
+  position: relative;
+  z-index: -1;
+} */
+
+.images-in-section4 h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 700;
+    right: 0;
+    left: 0;
+    width: 90%;
+    margin: auto;
+}
+
+.images-in-section4 p {
+    font-size: 1.06667rem;
+    font-weight: 500;
+    line-height: 0.99em;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+
+/* .section4Card01 {
+  margin-top: 150px;
+}
+
+.section4Card03 {
+  margin-top: 300px;
+} */
+
+.linkArrow {
+    font-size: 2rem;
+    position: absolute;
+    /* top: 120%; */
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 1s;
+}
+
+.Img3 img {
+    max-width: calc(100% - 13.4rem);
+    height: 100%;
+    max-height: 44.33333rem;
+    object-fit: cover;
+    margin: auto;
+    margin-right: 0;
+    display: block;
+    margin-bottom: 15px;
+    position: relative;
+    transition: 1s;
+}
+
+.Img4 img {
+    height: 100%;
+    max-width: 100%;
+    max-height: 33.33333rem;
+    min-height: 33.33333rem;
+    object-fit: cover;
+    margin: auto;
+    margin-right: 0;
+    display: block;
+    margin-bottom: 15px;
+    position: relative;
+    transition: 1s;
+}
+
+.Img1 h3,
+.Img4 h3,
+.Img2 h3 {
+    position: absolute;
+    bottom: 28px;
+    right: 60px;
+    font-size: 2rem;
+    line-height: 0.99em;
+    letter-spacing: -0.04em;
+    color: #fff;
+    transition: 1s;
+}
+
+.Img2 h3 {
+    right: 30% !important;
+}
+
+.Img3 h3 {
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    font-size: 2rem;
+    line-height: 0.99em;
+    letter-spacing: -0.04em;
+    color: #fff;
+    transition: 1s;
+}
+
+.Img1 h3 span,
+.Img2 h3 span,
+.Img3 h3 span,
+.Img4 h3 span {
+    font-size: 1.46667rem;
+    transition: 1s;
+}
+
+.Img1 svg,
+.Img2 svg,
+.Img3 svg,
+.Img4 svg {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: 1s;
+}
+
+.Img1:hover svg,
+.Img3:hover svg,
+.Img4:hover svg {
+    transition: 1s;
+    right: 20px;
+    opacity: 1;
+}
+
+.Img1:hover h3 span,
+.Img2:hover h3 span,
+.Img3:hover h3 span,
+.Img4:hover h3 span {
+    font-size: 0rem;
+    opacity: 0;
+    transition: 1s;
+}
+
+.Img1:hover img,
+.Img2:hover img,
+.Img3:hover img,
+.Img4:hover img {
+    filter: brightness(0.7);
+}
+
+.Img2:hover svg {
+    transition: 1s;
+    right: 25%;
+    opacity: 1;
+}
+
+.section4Card01:hover img,
+.section4Card02:hover img,
+.section4Card03:hover img {
+    filter: brightness(0.8);
+    transition: 1s;
+    /* z-index: -1; */
+    position: relative;
+}
+
+img.card-img-top {
+    height: 100%;
+    max-height: 520px;
+    min-height: 520px;
+    object-fit: cover;
+}
+
+.grandPriceCard {
+    transform: scale(1.1);
+}
+
+.scrollVertically h6 {
+    color: #fff;
+    font-size: 1.33333rem;
+    font-weight: 500;
+    line-height: 0.99em;
+    letter-spacing: -0.04em;
+    text-align: left;
+    position: absolute;
+    top: 119px;
+    left: 30px;
+}
+
+.section4Card01:hover .linkArrow,
+.section4Card02:hover .linkArrow,
+.section4Card03:hover .linkArrow {
+    opacity: 1;
+    transition: 1s;
+}
+
+.img3Heading {
+    left: 10px;
+}
+
+.active-price h2 {
+    font-size: 2.2rem;
+    text-shadow: -4px 4px 6px rgba(0, 0, 0, 0.68);
+    transition: 1.2s;
+}
+
+.active-price h2:hover {
+    letter-spacing: .7rem;
+    transition: 1.2s;
+}
+
+.active-price p,
+.active-price h2 {
+    font-style: italic;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1366px) {
+    .Img3 h3 {
+        right: 90px;
+    }
+    .Img2 h3 {
+        right: 10% !important;
+    }
+    .Img2:hover svg {
+        right: 3%;
+    }
+    .mainBannerHeading {
+        top: 50%;
+    }
+    .mainBannerHeading h2 {
+        font-size: 10.33333vw;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+    a.navbar-brand img {
+        max-width: 65px;
+        max-height: 65px;
+    }
+    .mainBannerHeading {
+        top: 55%;
+    }
+    .mainBannerHeading h2 {
+        font-size: 80px;
+        font-weight: 600;
+        padding-left: 0 !important;
+        display: block;
+        margin-left: 5px;
+        margin-bottom: -0.05em;
+        padding: 0.01em;
+        word-break: break-all;
+        line-height: 1;
+    }
+    .mainBannerHeading h2:first-child {
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+    }
+    .mainBannerHeading h5 {
+        font-size: 18px;
+        line-height: 1.2;
+        letter-spacing: 0px;
+        padding-left: 10px;
+    }
+    .BtnLink {
+        font-size: 16px;
+    }
+    .AdventuresToGetYouInspired {
+        font-size: 36px;
+    }
+    h2.ourTvShow {
+        font-size: 2.5rem;
+    }
+    .Img1 iframe,
+    .Img2 iframe,
+    .Img3 iframe,
+    .Img4 iframe {
+        max-width: 100%;
+        max-height: 100%;
+        min-height: 170px;
+    }
+    .Img1 h3,
+    .Img2 h3,
+    .Img4 h3,
+    .Img3 h3 {
+        font-size: 2.1rem;
+    }
+    .Img3 h3 {
+        left: 20px;
+    }
+    .NowItYourTurnMainHeading h2 {
+        font-size: 2.2rem;
+    }
+    .scrollVertically a {
+        position: relative;
+        min-height: 15.33333rem;
+        max-height: 15.33333rem;
+        min-width: 17rem;
+        transition: 1s;
+    }
+    .scrollVertically h2 {
+        left: 20px;
+    }
+    .scrollVertically a:nth-child(even) {
+        min-height: 12.73333rem;
+        max-height: 12.73333rem;
+        bottom: -40px;
+    }
+    .scrollVertically p {
+        left: 10px;
+        font-size: 0.8rem;
+        line-height: 1.3;
+        width: 95%;
+    }
+    .section4Card01,
+    .section4Card02,
+    .section4Card03 {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .section4Card01 a,
+    .section4Card02 a {
+        text-decoration: none !important;
+    }
+    .NowItYourTurnMainHeading {
+        margin: 20px auto !important;
+    }
+    .NowItYourTurn {
+        padding: 50px 10px;
+    }
+    .Img2:hover svg {
+        right: 20px;
+    }
+    .images-in-section4 {
+        margin-top: 0 !important;
+    }
+    .images-in-section4 h2 {
+        font-size: 1rem;
+    }
+    .video01 iframe {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+    .mainBannerHeading h2 {
+        font-size: 50px !important;
+    }
+    button.bookNow {
+        position: absolute;
+        left: 10px;
+        top: 100px;
+        padding: 5px 5px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+    }
+    .scrollVertically h3 {
+        font-size: 1.5rem;
+        top: 40px;
+        left: 10px;
+    }
+    .scrollVertically h6 {
+        font-size: 1rem;
+        top: 70px;
+        left: 10px;
+    }
+}
+
+.card-reponsive-class {
+    transition: 2s ease-in-out;
+}
+
+.card-reponsive-class:hover {
+    transform: scale(1.1);
+    transition: 2s ease-in-out;
+    z-index: 99;
+}
+
+@media screen and (max-width: 991px) {
+    .card-reponsive-class {
+        margin-bottom: 50px !important;
+    }
+    .gallery img:hover {
+        filter: drop-shadow(2px 4px 6px #000);
+        transform: scale(1) !important;
+        transition: 1s;
+    }
+    .mainSection {
+        background-attachment: scroll;
+        height: 100vh;
+    }
+    .Img1 iframe,
+    .Img2 iframe,
+    .Img3 iframe,
+    .Img4 iframe,
+    .Img6 iframe,
+    .Img5 iframe {
+        height: 100%;
+        max-width: 100% !important;
+        min-width: 100% !important;
+    }
+    .images-in-section4 img {
+        min-height: 400px;
+    }
+    .Img1 svg,
+    .Img2 svg,
+    .Img3 svg,
+    .Img4 svg,
+    .Img1 h3,
+    .Img2 h3,
+    .Img4 h3,
+    .Img3 h3 {
+        font-size: 1rem;
+        right: 0;
+        left: 0;
+        margin: auto;
+        text-align: center;
+    }
+    .fixedBtn {
+        right: 10px;
+        bottom: 50px;
+    }
+    .mainBannerHeading {
+        padding: 0 20px;
+    }
+    .Img4 img {
+        max-height: 10.33333rem;
+        min-height: 10.33333rem;
+    }
+    h2.ourTvShow {
+        font-size: 1.5rem;
+    }
+}
+
+.gallery img {
+    max-height: 500px;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.gallery img:hover {
+    filter: drop-shadow(2px 4px 6px #000);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+a.footerLinks {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+/* End */

@@ -1,0 +1,72 @@
+.theVesselMain{
+    background: url('../../Assets/theVessel/theVesselMainBg.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.theVesselMainBannerContent h2 {
+    font-size: 4rem;
+}
+
+.theVesselBookNow{
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    transition: 1s;
+    padding: 5px 10px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 0;
+    display: block;
+    width: fit-content;
+    font-size: 1.2rem;
+}
+
+.theVesselBookNow:hover{
+    background: #0a6ece;
+    border: 1px solid #0a6ece;
+    transition: 1s;
+    color: #fff;
+}
+
+.theVesselSection04MainHeading h2, 
+.theVesselSection02MainHeading h2 {
+    font-size: 6.66667vw;
+    font-weight: 700;
+}
+
+.TheVesselSection04Ul ul,
+.TheVesselSection03Ul ul {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.TheVesselSection04 img:hover,
+.TheVesselSection03 img:hover,
+.TheVesselSection02 img:hover {
+    opacity: 0.9 !important;
+    transform: scale(1.05) !important;
+}
+
+.SvZodiac {
+    background: #ededed;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 991px) and (min-width: 320px){
+    .theVesselMainBannerContent h2{
+        font-size: 43px;
+    }
+
+    .theVesselSection04MainHeading h2, 
+    .theVesselSection02MainHeading h2{
+        font-size: 36px;
+    }
+
+    video.video01{
+        opacity: 0.6;
+    }
+}
