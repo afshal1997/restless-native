@@ -12,7 +12,7 @@ const ResetLessNativeModal = ({ show, handleClose }) => {
                             <b>Join our tribe!</b>
                         </h1>
                         <p>Be the first to know about our new adventures, exclusive offers, special events and our MEDIA PROJECT!</p>
-                        <form action="">
+                        <form>
                             <InputGroup className="mb-3">
                                 <FormControl
                                     placeholder="Email Address"
@@ -20,7 +20,6 @@ const ResetLessNativeModal = ({ show, handleClose }) => {
                                     aria-describedby="Email"
                                     type='email'
                                 />
-                                {/* <InputGroup.Text id="Email" className='btn-primary'>Subscribe</InputGroup.Text> */}
                             </InputGroup>
                             <InputGroup className="mb-3">
                                 <FormControl
@@ -30,11 +29,9 @@ const ResetLessNativeModal = ({ show, handleClose }) => {
                                     type='number'
                                     required
                                 />
-                                {/* <InputGroup.Text id="Email" className='btn-primary'>Subscribe</InputGroup.Text> */}
                             </InputGroup>
                             <Button type='sumbit' className='mb-4' variant="primary">Subscribe</Button>
                         </form>
-
                         <h6>We respect your privacy. We are NOT gonna spam you! WE hate that as much as YOU do!</h6>
                     </div>
                 </Modal.Body>
