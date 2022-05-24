@@ -10,11 +10,6 @@ const ResetLessNativeModal = ({ show, handleClose }) => {
         </Button>
         <Modal.Body className="text-center text-light">
           <div className="modalEmail">
-            <div className="successMessage d-none">
-              <h6>
-                Thank you for subscribing to our email, please check your inbox
-              </h6>
-            </div>
             <h1>
               <b>Join our tribe!</b>
             </h1>

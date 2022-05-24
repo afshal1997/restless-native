@@ -36,19 +36,22 @@ const CustomForm = ({ status, message, onValidated }) => {
   return (
     <form onSubmit={(e) => handleSubmit(e)}>
       {status === "sending" && (
-        <div className="mc__alert mc__alert--sending">sending...</div>
+        <div className="alert alert-warning" role="alert">
+          <b>sending...</b>
+        </div>
       )}
       {status === "error" && (
         <div
-          className="mc__alert mc__alert--error"
+          class="alert alert-danger" role="alert"
           dangerouslySetInnerHTML={{ __html: message }}
         />
       )}
       {status === "success" && (
         <div
-          className="mc__alert mc__alert--success"
-          dangerouslySetInnerHTML={{ __html: message }}
-        />
+          className="alert alert-info" role="alert"
+        >
+          <b>Thanks for getting in touch!</b>
+        </div>
       )}
       <InputGroup className="mb-3">
         <FormControl
