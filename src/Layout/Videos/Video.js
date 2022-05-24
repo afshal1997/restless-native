@@ -4,10 +4,10 @@ const Video = ({videoClass, url}) => {
     return (
         <>
             <video
-                autoPlay="true"
-                loop="true"
-                muted="true"
-                playsInline="true"
+                autoPlay
+                loop
+                muted
+                playsInline
                 className={`${videoClass}`}
                 src={url}
                 type="video/mp4" />

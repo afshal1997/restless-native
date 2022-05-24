@@ -16,7 +16,7 @@ import AdventuresToGetImg04 from '../../../Assets/homeSection/section2.2.jpg'
 
 
 export const HomeSection01Content = [
-    
+
     {
 
         img01: AdventuresToGetImg03,
@@ -46,18 +46,18 @@ export const HomeSection01Content = [
 export const HomeSection02Content = [
     {
         video01:
-            <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/V-8PbOeubvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+            <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/V-8PbOeubvI" title="YouTube video player" allowFullScreen='allowFullScreen'></iframe>,
         AdventuresToGetClass01: 'Img1',
         video02:
-            <iframe width="100%" height="340" src="https://www.youtube-nocookie.com/embed/hdQbwJEBSIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+            <iframe width="100%" height="340" src="https://www.youtube-nocookie.com/embed/hdQbwJEBSIk" title="YouTube video player" allowFullScreen='allowFullScreen'></iframe>,
         AdventuresToGetClass02: 'Img3'
     },
     {
         video01:
-            <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/EekNPrWhBSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+            <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/EekNPrWhBSY" title="YouTube video player" allowFullScreen='allowFullScreen'></iframe>,
         AdventuresToGetClass01: 'Img2',
         video02:
-            <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/iJML-Ju-SZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+            <iframe width="100%" height="450" src="https://www.youtube-nocookie.com/embed/iJML-Ju-SZc" title="YouTube video player" allowFullScreen='allowFullScreen'></iframe>,
         AdventuresToGetClass02: 'Img4',
     }
 ]

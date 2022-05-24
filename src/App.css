@@ -15,8 +15,6 @@
   font-weight: 500;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-
 html,
 body {
   margin: 0;
@@ -171,6 +169,7 @@ video.video01 {
   background: rgba(0,0,0,0.4);
   padding: 40px 20px;
   border-radius: 10px;
+  position: relative;
 }
 
 @media screen and (max-width: 991px){
@@ -210,3 +209,15 @@ video.video01 {
   }
 }
 
+.successMessage {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  right: 0;
+  left: 0;
+  color: #11cb73;
+}

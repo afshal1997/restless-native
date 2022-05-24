@@ -64,9 +64,9 @@ function Header() {
               currentClassName="active-Link"
               className="d-flex align-itesm-center justify-content-center ps-0 mt-0 m-auto mobileView"
             >
-              <Nav.Link href="https://ota.myprojectstaging.net/#homeSection02">inspiration</Nav.Link>
-              <Nav.Link href="https://ota.myprojectstaging.net/#homeSection03">join</Nav.Link>
-              <Nav.Link href="https://ota.myprojectstaging.net/#homeSection04">prizes</Nav.Link>
+              <Nav.Link href="/#homeSection02">inspiration</Nav.Link>
+              <Nav.Link href="/#homeSection03">join</Nav.Link>
+              <Nav.Link href="/#homeSection04">prizes</Nav.Link>
               <Nav.Link as={Link} to="/the-vessels">The Vessels</Nav.Link>
             </Scrollspy>
           </Nav>

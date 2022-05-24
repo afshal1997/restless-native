@@ -11,13 +11,15 @@ import Home from './Pages/Home'
 import TheVessel from './Pages/TheVessel'
 const App = () => {
 
+  
   const [showModal, setModal] = useState(false)
   useEffect(() => {
     AOS.init()
     setTimeout(() => {
       setModal(true)
-    }, 10000);
+    }, 20000);
   }, [window.location.pathname])
+
   return (
     <div className="App">
       {window.location.pathname === "/" && <ResetLessNativeModal show={showModal} handleClose={() => setModal(false)} />}
@@ -26,8 +28,8 @@ const App = () => {
           <ScrollToTop>
             <Switch>
               <Route path="/" exact component={Home} />
-              <Route path="/the-vessels" component={TheVessel} />
-              <Route path="/before-you-set-sail" component={BeforYouSetSail} />
+              <Route path="/the-vessels" exact component={TheVessel} />
+              <Route path="/before-you-set-sail" exact component={BeforYouSetSail} />
             </Switch>
           </ScrollToTop>
         </BrowserRouter>
